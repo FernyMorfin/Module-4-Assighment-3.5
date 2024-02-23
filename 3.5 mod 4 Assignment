@@ -1,29 +1,17 @@
-  # fig02_01.py
-#Comparing integers using if statements and comparison operators."""
+#module4 assignment 3.6
+print("")
+print('    Hello there')
+(input('What is yout problem today?'))
 
-print('Enter two integers, and I will tell you',
-    'the relationships they satisfy.')
- 
-# read first integer
-number1 = int(input('Enter first integer: '))
- 
-# read second integer
-number2 = int(input('Enter second integer: '))
- 
-if number1 == number2:
-    print (number1, 'is equal to', number2)
- 
-else:
-    print (number1, 'is not equal to', number2)
 
-if number1 < number2:
-    print (number1, 'is less than', number2)
+problem = (input("Have you had this problem before ? "))
+
+
+if problem == 'yes':
+    print('Well,you have it again')
+
+elif problem == 'no':
+    print('Well, you have it now :(')
 
 else:
-    print(number1, 'is greater than', number2)
-
-if number1 <= number2:
-    print(number1, 'is less than or equal to', number2)
-
-else:
-    print(number1, 'is greater than or equal to', number2)
+    print('try again in all lower case :| ')
